@@ -7,11 +7,11 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/imperialbmicalc" id="navbar-text">Imperial BMI Calculator</a>
-        </li>
         <li class="nav-item active">
           <a class="nav-link" routerLink="/metricbmicalc" id="navbar-text">Metric BMI Calculator<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/imperialbmicalc" id="navbar-text">Imperial BMI Calculator</a>
         </li>
       </ul>
     </div>
@@ -22,7 +22,7 @@
     <div class="row">
       <div class="col-md-3"></div>
       <div class="col-md-6">
-        <h2 id="">Metric BMI Calculator</h2>
+        <h2 id="header">Metric BMI Calculator</h2>
         <form>
           <div class="form-group">
             <label for="inputWeightKG">Weight</label>
@@ -41,7 +41,7 @@
     <div class="row">
       <div class="col-md-3"></div>
       <div class="col-md-6">
-        <h4>Your Body Mass Index: {{bmiMetric | number : '1.2-2'}}</h4>
+        <h4 id="header">Your Body Mass Index: {{bmiMetric | number : '2.2-2'}}</h4>
       </div>
       <div class="col-md-3"></div>
     </div>

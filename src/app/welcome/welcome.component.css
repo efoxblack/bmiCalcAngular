@@ -1,0 +1,24 @@
+.btn.btn-square{
+    border-radius: 0;
+}
+
+#center-me{
+    text-align: center;
+}
+
+#bmi-def{
+    margin-left: 55px;
+}
+
+#give-top-margin{
+    margin-top: 25px;
+}
+
+#bmi-welcome{
+    margin-bottom: 25px;
+    margin-top: 45px;
+}
+
+#give-space{
+    margin-bottom: 25px;
+}
